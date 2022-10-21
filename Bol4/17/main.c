@@ -27,7 +27,7 @@ int main() {
 void explicarPrograma(){
     puts("\nEste programa permite, a partir de un menu iterativo, introducir un par de matrices\n"
          "cuadradas y realizar operaciones basicas entre ellas siempre que sea posible:"
-         "\n\tLa opcion I) permite introducir 2 nuevas matrices a operar."
+         "\n\tLa opcion I) permite introducir 02 nuevas matrices a operar."
          "\n\tLa opcion S) permite realizar una suma de matrices."
          "\n\tLa opcion R) permite realizar una resta de matrices."
          "\n\tLa opcion P) permite realizar una multiplicacion de matrices."

@@ -1,5 +1,5 @@
 /*
- * EJ.1-BOL.2
+ * EJ.01-BOL.02
  * OBJETIVO: Plantee e implemente un programa en Lenguaje C que solicite un número
  *           entero por teclado y muestre por pantalla si es positivo o negativo.
  * IN: número entero

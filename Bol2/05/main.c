@@ -6,7 +6,7 @@
 #define CBA printf("%d<=%d<=%d",c, b, a)
 #define BAC printf("%d<=%d<=%d",b, a, c)
 
-/* EJ.5-BOL.2
+/* EJ.5-BOL.02
  * OBJETIVOS: Plantee e implemente un programa en Lenguaje C que muestre por pantalla tres
  *            números enteros introducidos por teclado ordenados de menor a mayor.
  * IN: a, b, c

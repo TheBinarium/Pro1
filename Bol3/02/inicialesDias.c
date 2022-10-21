@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Ejercicio 2 del boletín 3
+/* Ejercicio 02 del boletín 03
  * OBJETIVO: Plantee e implemente un subprograma en Lenguaje C que a partir de la inicial
  *           de un día de la semana (L, M, X, J, V, S, D) introducida mediante el teclado,
  *           devuelva y muestre por pantalla el nombre del día en cuestión. Además del
@@ -22,25 +22,25 @@ void mostrar_dia() {
     char letra;
     switch (letra) {
         case 'L':
-            printf("\nSiii joder, es LUNES, viva Cristo Rey.\n");
+            printf("\nEs LUNES, viva Cristo Rey.\n");
             break;
         case 'M':
-            printf("\nHoy es MARTES, no hay tiempo que perder.\n");
+            printf("\nHoy es MARTES.\n");
             break;
         case 'X':
-            printf("\nHoy es MIERCOLES, se fuma makelele\nHoy es MIERCOLES, se fuma makelele\n...\n");
+            printf("\nHoy es MIERCOLES, se fuma makelele.\n");
             break;
         case 'J':
-            printf("\nOtro JUEVES más vivo, enhorabuena supongo.\n");
+            printf("\nHoy es JUEVES.\n");
             break;
         case 'V':
-            printf("\nXavaaaleees, que hoy es VIERNES!\n");
+            printf("\nHoy es VIERNES!\n");
             break;
         case 'S':
-            printf("\nHoy es SABADO, tu eliges que hacer hoy.\n");
+            printf("\nHoy es SABADO.\n");
             break;
         case 'D':
-            printf("\nHoy es DOMINGO asi que tirando para misa que es el día del Señor.\n");
+            printf("\nHoy es DOMINGO.\n");
             break;
         default:
             printf("\nERROR, creo que no ha leido muy bien el enunciado.\n");

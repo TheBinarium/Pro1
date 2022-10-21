@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-/* Ejercicio 4 del boletín 3
+/* Ejercicio 04 del boletín 03
  * OBJETIVO: Plantee e implemente un subprograma en Lenguaje C para resolver una ecuación
  *           de segundo grado Ax2+Bx+C=0 a partir de sus coeficientes A, B y C. Además del
  *           subprograma, implemente la función apropiada para probar su funcionamiento,

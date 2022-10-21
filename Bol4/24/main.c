@@ -20,10 +20,10 @@ struct empleado leerDatos(){
     scanf("%d/%d/%d", &iEmp.d, &iEmp.m, &iEmp.a);
     printf("Introduzca brevemente su nivel de estudios (Max. 40 caracteres):\n");
     scanf(" %40[^\n]", iEmp.estudios);
-    printf("\nIntroduzca su puesto de trabajo (1=Oficinista, 2=Conductor, 3=Tecnico):\n\t");
+    printf("\nIntroduzca su puesto de trabajo (01=Oficinista, 02=Conductor, 03=Tecnico):\n\t");
     do{
         scanf("%d", &option);
-        if(option<1||option>3) printf("\nError->1=Oficinista, 2=Conductor, 3=Tecnico");
+        if(option<1||option>3) printf("\nError->01=Oficinista, 02=Conductor, 03=Tecnico");
     }while(option<1||option>3);
     switch (option) {
         case 1:

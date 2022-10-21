@@ -21,7 +21,7 @@ int main() {
         capitales[i]=leerDatos();
     }
     do {
-        printf("\nQuiere ordenarlas alfabeticamente (1) o por poblacion (2)?: ");
+        printf("\nQuiere ordenarlas alfabeticamente (01) o por poblacion (02)?: ");
         scanf("%d", &option);
     } while (option!=1&&option!=2);
     if(option==1) sortNames(capitales);

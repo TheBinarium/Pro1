@@ -1,7 +1,7 @@
-/* EJ.14-BOL.2
+/* EJ.14-BOL.02
  * OBJETIVOS: Plantee e implemente un programa en Lenguaje C que solicite por teclado dos
  *            números enteros positivos y que muestre por pantalla su multiplicación en el
- *            formato clásico. Debe comprobar que el primer número tiene 3 cifras y es positivo,
+ *            formato clásico. Debe comprobar que el primer número tiene 03 cifras y es positivo,
  *            y que el segundo número es también positivo y tiene una única cifra. En caso de
  *            que no se cumplan estas condiciones, el programa debe alertar al usuario con un
  *            mensaje apropiado de error.
@@ -22,13 +22,13 @@ int main() {
     scanf("%d", &posUna);
     cifrasTres=(float)posTres/100;
     if(cifrasTres<1||cifrasTres>=10||posTres<0) {
-        printf("\nERROR, el primer numero debe ser POSITIVO y tener 3 CIFRAS\n");
+        printf("\nERROR, el primer numero debe ser POSITIVO y tener 03 CIFRAS\n");
         if(posUna<1||posUna>=10) {
-            printf("\nERROR, el segundo numero debe ser POSITIVO y tener 1 CIFRA\n");
+            printf("\nERROR, el segundo numero debe ser POSITIVO y tener 01 CIFRA\n");
         }
     }
     else if(posUna<1||posUna>=10) {
-        printf("\nERROR, el segundo numero debe ser POSITIVO y tener 1 CIFRA\n");
+        printf("\nERROR, el segundo numero debe ser POSITIVO y tener 01 CIFRA\n");
     }
     else {
         printf("\n%16d\n", posTres);

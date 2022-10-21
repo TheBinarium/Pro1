@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Ejercicio 3 del boletín 3
+/* Ejercicio 03 del boletín 03
  * OBJETIVO: Escribir un programa, empleando funciones de usuario, que pida un número
  *           entero y muestre por pantalla el mayor entero que lo divide exceptuando el mismo.
  * IN: Número entero

@@ -1,4 +1,4 @@
-/* EJ.13-BOL.2
+/* EJ.13-BOL.02
  * OBJETIVOS: Plantee e implemente un programa en Lenguaje C para clasificar triángulos en
  *            función de las longitudes de sus lados, que se solicitarán por teclado, de forma
  *            que se indique por pantalla si el triángulo es equilátero (todos los lados iguales),

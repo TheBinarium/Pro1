@@ -3,7 +3,7 @@
 #define B printf("El mayor de los tres numeros introducidos es: %.2f", b)
 #define C printf("El mayor de los tres numeros introducidos es: %.2f", c)
 
-/* EJ.4-BOL.2
+/* EJ.04-BOL.02
  * OBJETIVOS: Plantee e implemente un programa en Lenguaje C que muestre por pantalla el
  *            mayor de tres números introducidos por teclado.
  * IN: a, b, c

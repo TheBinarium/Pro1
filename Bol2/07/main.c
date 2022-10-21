@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-/* EJ.7-BOL.2
+/* EJ.7-BOL.02
  * OBJETIVOS: Implemente un programa que resuelva ecuaciones de segundo grado
  *            empleando sentencias switch para los casos: reales y distintas, complejas
  *            conjugadas y raíz real doble.
@@ -17,7 +17,7 @@ int main() {
     int a, disc;
 
     //ENTRADA
-    printf("\nCalculadora para hallar las raíces de ecuaciones de segundo grado y=ax^2+bx+c\n");
+    printf("\nCalculadora para hallar las raíces de ecuaciones de segundo grado y=ax^02+bx+c\n");
     printf("\nEscriba el valor de a: ");
     scanf("%d", &a);
     printf("\nEscriba el valor de b: ");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Ejercicio 1 del boletín 3
+/* Ejercicio 01 del boletín 03
  * OBJETIVO: Plantee e implemente un subprograma en Lenguaje C para escribir N líneas en
  *           blanco por pantalla. Además del subprograma, implemente un programa principal
  *           para probar su funcionamiento.
@@ -19,7 +19,7 @@ int main() {
 
 void lineas_blanco(int n){
     int i;
-    for (i = 0; i < n-1 ; ++i) {                //Puse n-1 porque si no cuenta también el ENTER nuestro.
+    for (i = 0; i < n-1 ; ++i) {                //Puse n-01 porque si no cuenta también el ENTER nuestro.
         printf("\n");
     }
 }

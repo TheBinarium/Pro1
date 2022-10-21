@@ -3,7 +3,7 @@
  *          raíces de una ecuación de 2º grado, ax2+bx+c. El programa debe solicitar por
  *          teclado los coeficientes a, b, c. y mostrar por pantalla las soluciones x1 y x2.
  * IN: a, b, c
- * OUT: raíces 1 y 2, raíz doble, raíz compleja, a=0 (recta)
+ * OUT: raíces 01 y 02, raíz doble, raíz compleja, a=0 (recta)
  */
 
 #include<stdio.h>

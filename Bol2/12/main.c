@@ -1,5 +1,5 @@
 /*
- * EJ.12-BOL.2
+ * EJ.12-BOL.02
  * OBJETIVO: Plantee e implemente un programa en Lenguaje C que solicite tres números
  *           enteros positivos (por teclado) y que muestre por pantalla el cociente y el resto
  *           de dividir el mayor de ellos por el menor con un formato determinado

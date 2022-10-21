@@ -38,14 +38,14 @@ void mostrarMatrices(const float matrizA[N][N], const float matrizB[N][N]){
     printf("\nLa matriz original es:\n");
     for(int i=0;i<N; ++i){
         for(int j=0;j<N; ++j){
-            printf("%4.2f", matrizB[i][j]);
+            printf("%04.2f", matrizB[i][j]);
         }
         printf("\n");
     }
     printf("\nLa matriz tras modificaciones es:\n");
     for(int i=0;i<N; ++i){
         for(int j=0;j<N; ++j){
-            printf("%4.2f", matrizA[i][j]);
+            printf("%04.2f", matrizA[i][j]);
         }
         printf("\n");
     }

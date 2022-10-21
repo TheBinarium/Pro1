@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* EJ.8-BOL.2
+/* EJ.8-BOL.02
  * OBJETIVO: Plantee e implemente un programa en Lenguaje C que solicite al usuario una
              fecha del año en curso y le muestre en el centro de la pantalla (aproximadamente)
              el número de días transcurridos desde el comienzo de año hasta esa fecha.

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define IRPF 15/100
 
-/* EJ.10-BOL.2
+/* EJ.10-BOL.02
  * OBJETIVO: Plantee e implemente un programa en Lenguaje C que solicite el salario anual
  *           bruto de una persona y muestre por pantalla la reducción del IRPF que se le
  *           aplicaría según los hijos menores de 18 años que tenga a su cargo, sabiendo que

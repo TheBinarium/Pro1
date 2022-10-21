@@ -1,5 +1,5 @@
 /*
- * EJ.2-BOL.2
+ * EJ.02-BOL.02
  * OBJETIVO: Plantee e implemente un programa en Lenguaje C que solicite un número
  *           entero por teclado y muestre por pantalla si es par o impar.
  * IN: número entero

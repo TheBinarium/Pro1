@@ -14,7 +14,7 @@ int main() {
     scanf(" %[^\n]", frase);
     do {
         do {
-            printf("1->Cambiar una palabra / 2->Salir:");
+            printf("01->Cambiar una palabra / 02->Salir:");
             scanf("%d", &option);
         } while (option != 1 && option != 2);
         if(option==1){

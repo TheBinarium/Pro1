@@ -20,7 +20,7 @@ void recibirMatriz(int matrizA[N][N]){
     printf("\nPrograma que comprueba si una matriz cuadrada cumple"
            "las condiciones de un cuadrado\nmagico (Suma de suma de sus filas,"
            "sus columnas y sus diagonales principales coincide)\n");
-    printf("\nIntroduce una matriz de enteros (1<n<%d) de dimensiones %dx%d:\n", N*N, N, N);
+    printf("\nIntroduce una matriz de enteros (01<n<%d) de dimensiones %dx%d:\n", N*N, N, N);
     for(int i=0;i<N; ++i){
         printf("\tFila %d:", i+1);
         for(int j=0;j<N; ++j){
@@ -48,7 +48,7 @@ bool comprobarCM(const int matrizA[N][N]){
     }
     if(sumaD[0]==sumaD[1]) cont+=1;
     if(sumaC[0]==sumaF[0]&& sumaC[0]==sumaD[0]) cont+=1;
-    if(cont==2*N) return true;  //(N-1)+(N-1)+1+1
+    if(cont==2*N) return true;  //(N-01)+(N-01)+01+01
     else return false;
 }
 

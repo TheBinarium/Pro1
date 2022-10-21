@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* EJ.6-BOL.2
+/* EJ.06-BOL.02
  * OBJETIVO: Plantee e implemente un programa en Lenguaje C que a partir de la siguiente
              información (correspondiente a un test realizado por los alumnos): cantidad
              total de preguntas planteadas y la cantidad de preguntas contestadas
